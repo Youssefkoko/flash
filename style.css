@@ -1,0 +1,38 @@
+#main-header {
+  width: 105%;
+  height: 100%;
+}
+
+#main-header .port-item {
+  width: 30%;
+}
+#main-header .port-item:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.bg-black {
+  color: aliceblue;
+  background: #000;
+}
+#home {
+  width: 105%;
+}
+#resume {
+  width: 105%;
+}
+#work {
+  width: 105%;
+}
+
+#contact {
+  width: 105%;
+}
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 52px !important;
+  }
+}
+
+#main-footer {
+  width: 105%;
+}
